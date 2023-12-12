@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.license      = 'Apache License, Version 2.0'
   s.author       = "Red Hat, Inc."
   s.source       = { :git => 'https://github.com/aerogear/aerogear-ios-otp.git', :tag => s.version }
-  s.platform     = :ios, 9.0
+  s.platform     = :ios, 13.6
   s.source_files = 'AeroGearOTP/Classes/*.{h,m}'
   s.public_header_files = 'AeroGearOTP/Classes/AeroGearOTP.h', 'AeroGearOTP/Classes/AGOtp.h', 'AeroGearOTP/Classes/AGTotp.h', 'AeroGearOTP/Classes/AGClock.h', 'AeroGearOTP/Classes/AGBase32.h', 'AeroGearOTP/Classes/AGStringEncoding.h'
   s.requires_arc = true
